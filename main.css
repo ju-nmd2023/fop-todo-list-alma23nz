@@ -8,3 +8,9 @@ img {
   width: 2rem;
   margin-left: 0.3rem;
 }
+#container {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(236, 219, 203);
+  padding: 0.5em;
+}
