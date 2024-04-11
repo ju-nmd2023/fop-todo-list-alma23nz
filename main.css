@@ -5,22 +5,47 @@
   box-sizing: border-box;
 }
 img {
-  width: 2rem;
+  width: 3rem;
   margin-left: 0.3rem;
 }
 #container {
-  background-color: rgb(242, 201, 229);
+  background-color: rgb(242, 165, 217);
 }
 .todo-listcontainer {
   width: 100%;
   max-width: 35rem;
-  background-color: rgb(240, 225, 211);
+  background-color: rgb(246, 220, 200);
   margin-top: 100px;
-  margin-right: 300px;
-  margin-left: 400px;
+  margin-right: 350px;
+  margin-left: 440px;
   margin-bottom: 20px;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 40px;
   padding-bottom: 70px;
+  border-radius: 10px;
+}
+.todo-header {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#input-container {
+  width: 500px;
+  height: 1.9rem;
+  border: 0.5px solid rgb(246, 220, 200);
+  border-radius: 10px;
+  background-color: rgb(242, 165, 217);
+  margin-right: 10px;
+  padding-top: 1.5px;
+  font-size: 20px;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 20px;
 }
