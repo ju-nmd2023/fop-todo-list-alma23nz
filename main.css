@@ -9,8 +9,18 @@ img {
   margin-left: 0.3rem;
 }
 #container {
+  background-color: rgb(242, 201, 229);
+}
+.todo-listcontainer {
   width: 100%;
-  height: 50%;
-  background-color: rgb(236, 219, 203);
-  padding: 0.5em;
+  max-width: 35rem;
+  background-color: rgb(240, 225, 211);
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
