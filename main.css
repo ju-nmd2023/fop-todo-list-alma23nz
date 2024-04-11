@@ -64,3 +64,15 @@ button {
   border-radius: 10px;
   background-color: rgb(246, 220, 200);
 }
+ul {
+  list-style: none;
+  font-size: 17px;
+  user-select: none;
+  padding: 0;
+  margin: 30px;
+  text-align: left;
+  cursor: pointer;
+}
+
+li {
+}
