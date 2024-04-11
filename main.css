@@ -33,6 +33,8 @@ img {
 }
 
 #input-container {
+  display: flex;
+  align-items: center;
   width: 500px;
   height: 1.9rem;
   border: 0.5px solid rgb(246, 220, 200);
@@ -43,9 +45,19 @@ img {
   font-size: 20px;
 }
 input {
+  flex: auto;
   border: none;
   outline: none;
   background-color: transparent;
   margin-left: 10px;
   font-size: 20px;
+}
+button {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 15px;
+  padding: 1.5px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  background-color: rgb(246, 220, 200);
 }
