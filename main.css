@@ -77,6 +77,9 @@ ul {
   text-align: left;
   cursor: pointer;
 }
+li {
+  margin-bottom: 0.5rem;
+}
 
 .btn {
   cursor: pointer;
