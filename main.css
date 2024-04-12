@@ -83,6 +83,16 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(98, 96, 96);
 }
+.delete-btn {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 15px;
+  margin-left: 2.5rem;
+  padding: 0.5rem;
+  border: 0.1rem solid rgb(246, 220, 200);
+  border-radius: 1rem;
+  background-color: rgb(242, 165, 217);
+}
 
 .btn {
   cursor: pointer;
