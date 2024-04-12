@@ -79,6 +79,9 @@ ul {
 }
 li {
   margin-bottom: 0.5rem;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(98, 96, 96);
 }
 
 .btn {
