@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main.css" />
     <script src="main.js" defer></script>
   </head>
-  <body id="container">
+  <body id="body-container">
     <div class="todo-listcontainer">
       <div>
         <h1 class="todo-header">
@@ -19,10 +19,10 @@
         <button class="button" onclick="addTask()">+</button>
       </div>
       <div>
-        <ul id="taskulList"></ul>
+        <ul id="taskulList">
+          <li id="todiliList"></li>
+        </ul>
       </div>
-      <hr class="line" />
-      <button class="btn">Delete items</button>
     </div>
   </body>
 </html>

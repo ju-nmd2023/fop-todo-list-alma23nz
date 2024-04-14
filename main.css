@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 img {
   width: 3rem;
   margin-left: 0.3rem;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -15,9 +17,10 @@ body {
   justify-content: space-evenly;
 }
 
-#container {
+#body-container {
   background-color: rgb(242, 165, 217);
 }
+
 .todo-listcontainer {
   display: flex;
   flex-direction: column;
@@ -29,6 +32,7 @@ body {
   border-radius: 0.5rem;
   padding: 3rem;
 }
+
 .todo-header {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -49,6 +53,7 @@ body {
   padding-top: 0;
   font-size: 15px;
 }
+
 input {
   border: none;
   outline: none;
@@ -58,6 +63,7 @@ input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(98, 96, 96);
 }
+
 .button {
   cursor: pointer;
   transition: 0.5s;
@@ -68,7 +74,9 @@ input {
   border-radius: 1rem;
   background-color: rgb(242, 165, 217);
 }
+
 ul {
+  display: inline;
   list-style: none;
   font-size: 17px;
   user-select: none;
@@ -77,30 +85,21 @@ ul {
   text-align: left;
   cursor: pointer;
 }
+
 li {
-  margin-bottom: 0.5rem;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(98, 96, 96);
 }
-.delete-btn {
-  cursor: pointer;
-  transition: 0.5s;
-  font-size: 15px;
-  margin-left: 2.5rem;
-  padding: 0.5rem;
-  border: 0.1rem solid rgb(246, 220, 200);
-  border-radius: 1rem;
-  background-color: rgb(242, 165, 217);
-}
 
-.btn {
-  cursor: pointer;
-  transition: 0.5s;
-  font-size: 15px;
-  margin: 2rem;
-  padding: 0.5rem;
-  border: 0.5rem rgb(246, 220, 200);
-  border-radius: 1rem;
-  background-color: rgb(242, 165, 217);
+.task-checkbox {
+  margin: 0.5rem;
+  background-color: transparent;
+}
+.completed {
+  text-decoration: line-through;
+}
+.delete-button {
+  margin: 1rem;
+  background-color: transparent;
 }
