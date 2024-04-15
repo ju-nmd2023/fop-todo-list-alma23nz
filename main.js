@@ -57,7 +57,7 @@ function deleteTask(event) {
   taskList.removeChild(task);
   saveTasksToLocalStorage(task.textContent, false, true);
 }
-// the following 8 lines were adapted from chatgpt
+// the following  lines were adapted from chatgpt
 
 function saveTasksToLocalStorage(text, completed, deleted = false) {
   const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
@@ -65,10 +65,6 @@ function saveTasksToLocalStorage(text, completed, deleted = false) {
 
   if (existingTaskIndex !== -1) {
     tasks.splice(existingTaskIndex, 1);
-  }
-
-  if (!deleted) {
-    tasks.push({ text, completed, deleted });
   }
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
