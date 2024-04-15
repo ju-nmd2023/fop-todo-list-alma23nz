@@ -92,10 +92,6 @@ li {
   color: rgb(98, 96, 96);
 }
 
-.task-checkbox {
-  margin: 0.5rem;
-  background-color: transparent;
-}
 .completed {
   text-decoration: line-through;
 }
