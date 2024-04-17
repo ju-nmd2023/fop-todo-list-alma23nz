@@ -91,7 +91,9 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(98, 96, 96);
 }
-
+.task-checkbox {
+  margin: 0.5rem;
+}
 .completed {
   text-decoration: line-through;
 }
