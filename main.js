@@ -1,8 +1,9 @@
-function clickHandlar() {
-  //  the following 22 code line was addaped from https://dev.to/iamcymentho/implementing-to-do-list-using-javascript-32a7
+//  the following 22 code line was addaped from https://dev.to/iamcymentho/implementing-to-do-list-using-javascript-32a7
 
-  const taskInput = document.getElementById("inputbox");
-  const taskList = document.getElementById("taskulList");
+const taskInput = document.getElementById("inputbox");
+const taskList = document.getElementById("taskulList");
+
+function clickHandlar() {
   const text = taskInput.value;
   if (text !== "") {
     const li = document.createElement("li");
@@ -21,7 +22,6 @@ function clickHandlar() {
     deletebtn.classList.add("delete-button");
     deletebtn.addEventListener("click", deleteTask);
     li.appendChild(deletebtn);
-    localStorage.list = text;
   }
 }
 
@@ -35,10 +35,11 @@ function deleteTask(event) {
   taskList.removeChild(task);
 }
 
+function saveList() {}
+
 function loadHandlar() {
   const inputBtn = document.getElementById("addtaskbutton");
   inputBtn.addEventListener("click", clickHandlar);
-  todoList();
 }
 
 window.addEventListener("load", loadHandlar);
