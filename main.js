@@ -1,5 +1,5 @@
 // the following code was adapted from lecture 05: Example - Build a coin flip game with high score
-//   the following 11 lines were adapted from chatgpt accessed 17-04-2024
+//   the following 11 lines were adapted from chatgpt accessed 17-04-2024 https://chat.openai.com/share/a63aaad3-4e99-4d1c-8105-b63ec3f4c1b3
 function saveList() {
   const taskListItems = document.querySelectorAll("#taskulList li");
   const tasks = [];
@@ -15,10 +15,11 @@ function saveList() {
 function displayList() {
   const taskInput = document.getElementById("inputbox");
   const taskList = document.getElementById("taskulList");
-  //   the following 3 lines were adapted from chatgpt accessed 17-04-2024
+  //   the following 3 lines were adapted from chatgpt accessed 17-04-2024 https://chat.openai.com/share/a63aaad3-4e99-4d1c-8105-b63ec3f4c1b3
   taskList.innerHTML = "";
   const storedTasks = JSON.parse(localStorage.getItem("taskList")) || [];
   storedTasks.forEach((task) => {
+    //  the following 38 code line was addaped from https://dev.to/iamcymentho/implementing-to-do-list-using-javascript-32a7
     const li = document.createElement("li");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -42,7 +43,6 @@ function displayList() {
     taskList.appendChild(li);
   });
 }
-//  the following 20 code line was addaped from https://dev.to/iamcymentho/implementing-to-do-list-using-javascript-32a7
 function addTask() {
   const taskInput = document.getElementById("inputbox");
   const taskText = taskInput.value.trim();
