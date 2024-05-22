@@ -13,7 +13,6 @@ function saveList() {
 }
 
 function displayList() {
-  const taskInput = document.getElementById("inputbox");
   const taskList = document.getElementById("taskulList");
   //   the following 3 lines were adapted from chatgpt accessed 17-04-2024 https://chat.openai.com/share/a63aaad3-4e99-4d1c-8105-b63ec3f4c1b3
   taskList.innerHTML = "";
